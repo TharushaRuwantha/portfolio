@@ -1,0 +1,84 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+.sub{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.me{
+    background-color: black;
+}
+
+.project{
+    background-color: #FFA800;
+}
+
+.contact{
+    background-color: black;
+}
+
+
+.wordart{
+    width: 55%;
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+    z-index: 1;
+    
+
+}
+.welcome{
+    background-color:black;
+}
+
+.wording{
+    font-size: 50px;
+    z-index: 10;
+    position: absolute;
+}
+
+.wordingback{
+    font-size: 50px;
+    z-index: 10;
+    position: absolute;
+}
+.frontWording{
+    color: #FFA800;
+}
+
+.backWording{
+color: #A17726;
+}
+.dot{
+  
+    color: aliceblue;
+}
+.profileImage{
+    width: 50%;
+}
+
+.Im{
+    font-family: 'Dancing Script';font-size: 22px;
+    color: aliceblue;
+    font-size:8vw;
+    font-weight: bold;
+    margin: 0%;
+}
+.fullstack{
+    color: aliceblue;
+    font: size 1.5em;
+    font-weight: bold;
+    margin: -5px;
+
+}
+marquee {
+    height: 100vh;
+  }
