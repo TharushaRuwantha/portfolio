@@ -1,4 +1,5 @@
-var loader = document.getElimentById("preloader");
-window.addEventListener("load",function(){
-    loader.style.display = "none";
+
+var loader = document.getElementByIda("PreLoader");
+window.addEventListener("load" , function(){
+    loader.style.display="none";
 })
