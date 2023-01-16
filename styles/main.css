@@ -5,9 +5,9 @@
 
 }
 
-#PreLoader{
+#Preloader{
     background: black url(../images/loading.gif) no-repeat center center;
-    background-size: 10%;
+    background-size: 5%;
     width:100%;
     height:100vh;
     position:fixed;

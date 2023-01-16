@@ -1,5 +1,5 @@
 
-var loader = document.getElementByIda("PreLoader");
+var loader = document.getElementById("Preloader");
 window.addEventListener("load" , function(){
     loader.style.display="none";
 })
