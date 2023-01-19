@@ -17,13 +17,15 @@
 .sub{
     height:100vh;
     display: flex;
-    justify-content: center;
+    overflow-x: hidden;
     align-items: center;
     scroll-snap-align: start;
 }
 
 .me{
     background-color: black;
+    justify-content: center;
+    
 }
 
 .project{
@@ -32,6 +34,7 @@
 
 .contact{
     background-color: black;
+    justify-content: center;
 }
 
 
@@ -41,6 +44,8 @@
     left:0px;
     bottom: 0px;
     z-index: 1;
+    height: 100%;
+    width: auto;
     
 
 }
@@ -52,6 +57,12 @@
     font-size: 50px;
     z-index: 10;
     position: absolute;
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+    
+    
+    
 }
 
 .wordingback{
@@ -368,8 +379,16 @@ color: #A17726;
 
 
 
+
 @media screen and (max-width:750px){    
     .linkbutton{
         visibility: hidden;
     }
 }
+@media screen and (max-width:765px) {
+    .wordart{
+     height: auto;
+     width: 100%;
+    }
+     
+ }
