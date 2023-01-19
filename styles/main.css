@@ -95,7 +95,9 @@ color: #A17726;
     width: 100%;
     z-index: 20;
 }
-
+.primary-navigation a:hover{
+    color: #FFA800;
+}
 .navigationProject{
     background-color:#FFA800;
     position:fixed;
@@ -135,7 +137,7 @@ color: #A17726;
 
 .descriptionAbout{
     text-align: left;
-    margin-top: 10px;
+    margin-top: 40px;
     padding-top:20px;
     padding-left: 10%;
     color: rgba(255, 255, 255, 0.331);
@@ -212,6 +214,7 @@ color: #A17726;
     padding-left: 45px;
     padding-right: 45px;
 }
+
 .main{
     
     width: 100%;
