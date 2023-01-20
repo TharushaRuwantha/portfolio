@@ -1,9 +1,16 @@
 * {
     padding:0;
     margin:0;
+   
+    
+
+}
+body{
+    overflow-x: hidden ;
     box-sizing:border-box;
 
 }
+
 
 #Preloader{
     background: black url(../images/loading.gif) no-repeat center center;
@@ -17,6 +24,7 @@
 .sub{
     height:100vh;
     display: flex;
+    width:100%;
     overflow-x: hidden;
     align-items: center;
     scroll-snap-align: start;
@@ -25,6 +33,7 @@
 .me{
     background-color: black;
     justify-content: center;
+    
     
 }
 
@@ -103,18 +112,12 @@ color: #A17726;
     background-color: black;
     position:fixed;
     background-color: none;
-    width: 100%;
     z-index: 20;
+    width: 100%;
+
 }
 .primary-navigation a:hover{
     color: #FFA800;
-}
-.navigationProject{
-    background-color:#FFA800;
-    position:fixed;
-    background-color: none;
-    width: 100%;
-    z-index: 20;
 }
 
 .primary-navigation{
@@ -178,10 +181,12 @@ color: #A17726;
     color: rgba(240, 248, 255, 0.714);
 }
 .bgLogo{
-    max-width: 500px;
+    max-width: 80%;
     opacity: 80%;
     position: absolute;
     z-index: 2;
+    flex-direction: column;
+    display: flex;
 } 
 .fromcontact{
     z-index: 6;
@@ -382,7 +387,7 @@ color: #A17726;
 
 @media screen and (max-width:750px){    
     .linkbutton{
-        visibility: hidden;
+        display:none;
     }
 }
 @media screen and (max-width:765px) {
