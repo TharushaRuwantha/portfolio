@@ -29,6 +29,15 @@ body{
     align-items: center;
     scroll-snap-align: start;
 }
+.menu{
+    visibility: hidden;
+    position: absolute;
+    right: 20px;
+    
+}
+.menuicon{
+    width:35px;
+}
 
 .me{
     background-color: black;
@@ -108,45 +117,34 @@ color: #A17726;
     margin: -5px;
 
 }
-.nevigation{
-    background-color: black;
-    position:fixed;
-    background-color: none;
-    z-index: 20;
-    width: 100%;
+.navbar{
+    z-index: 80;
+    position: absolute;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    box-sizing: border-box;
+}
 
-}
-.primary-navigation a:hover{
-    color: #FFA800;
-}
-
-.primary-navigation{
-    list-style: none;
-    
-    
-  
-    
-}
-.primary-navigation .logo{
-    float: left;
-    font-size: 2em;
-    font-weight: bolder;
-    margin-top: 0;
-    color:#FFA800;
-    
-    
-}
-.primary-navigation li{
-    display: inline;
-    float: right;
-    margin-right:5%;
-    margin-top: 10px;
-    
-}
-.primary-navigation a{
-    text-decoration: none;
-    font-weight: bold;
+.navbar a{
     color: aliceblue;
+    
+
+}
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFA800;
+    margin-right:auto;
+    left: 0;
+}
+.navbar .nav-links ul{
+    display: flex ;
+}
+.navbar .nav-links ul li{
+    margin: 0px 30px;
 }
 
 .descriptionAbout{
@@ -385,15 +383,20 @@ color: #A17726;
 
 
 
-@media screen and (max-width:750px){    
-    .linkbutton{
-        display:none;
-    }
-}
+
 @media screen and (max-width:765px) {
-    .wordart{
-     height: auto;
-     width: 100%;
+    
+    .nav-links{
+        display: none;
     }
-     
+    .menu{
+        visibility: visible;
+    }
+   
+ }
+ @media screen and (max-width:865px) {
+    .wordart{
+        height: auto;
+        width: 80%;
+       }
  }
