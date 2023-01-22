@@ -267,6 +267,10 @@ color: #A17726;
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .mainImages li:nth-child(1){
     left:11%;
@@ -544,7 +548,7 @@ card small{
 
 
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:768px) {
     
     .navbar{
         padding:0;
@@ -592,6 +596,9 @@ card small{
         align-items: center ;
       
     }
+
+
+    
    
  }
 
