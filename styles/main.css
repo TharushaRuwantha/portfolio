@@ -606,17 +606,21 @@ card small{
     .me{
         height:750px ;
     }
-    .project{
-        height: 1500px;
-    }
+    
     .contact{
         height: 1000px;
     }
- }
-
- @media screen and (max-width:865px) {
     .wordart{
         height: auto;
         width: 80%;
        }
+ }
+
+ 
+ 
+ @media screen and (max-width:1060px){
+    .project{
+        height: 1600px;
+    }
+   
  }

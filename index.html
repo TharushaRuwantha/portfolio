@@ -19,9 +19,9 @@
         <div class="logo">HTRP</div>
         <div class="nav-links">
             <ul>
-                <li><a href="">Who Am I</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#mepage">Who Am I</a></li>
+                <li><a href="#projectspage">Projects</a></li>
+                <li><a href="#contactpage">Contact Me</a></li>
             </ul>
         
         </div>
@@ -57,8 +57,7 @@
                                     <p class="fullstack">Full Stack Developer</p>
                                 </div>
                                 <div class="descriptionAbout">
-                                    <p>As an aspiring Undergraduate Student in the IT industry. I have the technical knowledge and expertise to develop effective software solutions. I am also a self-motivated individual and a team player with the capability to take on new challenges and execute them successfully</p>
-                                    <input type="button" value="Download CV" class="Cvbutton btn"> 
+                                    <p>Passionate tech enthusiast with technical knowledge and expertise in developing effective software solutions.Self-motivated individual and a team player with the capability to take on new challenges and execute them successfully.</p> <input type="button" value="Download CV" class="Cvbutton btn"> 
                                     
                                 </div>
                                 
@@ -131,7 +130,7 @@
                     <img src="./images/app.png" alt="web">
                 </div>
                 <h2>Mobile Projects</h2>
-                <small>#JAVA #FLUTTER</small>
+                <small> #FLUTTER<br>#JAVA</small>
                 <h3>8</h3>
                 <p>
                     projects
@@ -145,7 +144,7 @@
                     <img src="./images/other.png" alt="web">
                 </div>
                 <h2>Other Projects</h2>
-                <small>#UNREAL #C-SHARP #UNITY</small>
+                <small>#UNREAL #C-SHARP <br>#UNITY</small>
                 <h3>6</h3>
                 <p>
                     projects 
@@ -173,29 +172,29 @@
            <div class="row inputrow">
                 <div class="col-md-6">
                     <label class="lableText">Your Name</label><br>
-                    <input type="text" class="inputPlace">
+                    <input type="text" class="inputPlace" required>
                 </div>
     
                 <div class="col-md-6">
                     <label class="lableText">Your Email</label><br>
-                    <input type="text" class="inputPlace">
+                    <input type="email" class="inputPlace" required>
                 </div>
            </div>
            <div class="row inputrow">
             <div class="col-md-6 ">
                 <label class="lableText">What Are you interested</label><br>
-                <input type="text" class="inputPlace">
+                <input type="text" class="inputPlace" required>
             </div>
     
             <div class="col-md-6 ">
-                <label class="lableText">Project Budget</label><br>
-                <input type="text" class="inputPlace">
+                <label class="lableText">Project Budget(USD)</label><br>
+                <input type="number" class="inputPlace" required>
             </div>
        </div>
            <div class="row">
                 <div class="col-12">
                     <lable class="lableText">Message</lable><br>
-                    <textarea class="inputPlace2"></textarea>
+                    <textarea class="inputPlace2" required></textarea>
     
                 </div>
            </div>
@@ -208,6 +207,13 @@
            </div>
        </form>
     </section>
+    <footer class="text-center text-lg-start text-bg-dark " id="footer">
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2023 Copyright: HTRP
+        </div>
+        
+      </footer>
+    </body>
     <script>
         const menuHamburger = document.querySelector(".menuicon")
         const navLinks = document.querySelector(".nav-links")
