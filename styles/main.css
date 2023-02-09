@@ -200,10 +200,13 @@ color: #A17726;
     display: flex;
 } 
 .fromcontact{
+    border-radius: 10px;
+    background-color: #81848f37;
     z-index: 6;
     width: 70%;
 }
 .Greeting{
+    margin-top:10px;
     z-index: 4;
     font-size: 3em;
     color: aliceblue;
@@ -223,6 +226,11 @@ color: #A17726;
  padding-left: 40px;
  padding-right: 40px;
 }
+.Cvbutton:hover{
+    border-color: #FFF;
+    color: #FFF;
+}
+
 .resetButton{
     background-color:aliceblue;
     border-radius: 3px;
@@ -240,6 +248,12 @@ color: #A17726;
     padding-bottom: 5px;
     padding-left: 45px;
     padding-right: 45px;
+    width: 100%;
+    margin: 20px 0px;
+}
+.submitButton:hover{
+    border-color: #FFF;
+    color: white;
 }
 
 .main{
@@ -257,7 +271,9 @@ color: #A17726;
     height: 100%;
     overflow: hidden;
 }
-
+.details{
+    padding-right: 30px;
+}
 .mainImages li {
     position:absolute;
     display: block;
@@ -545,8 +561,23 @@ card small{
     }
 }
 
+@media screen and (max-width:450px) {
 
+    .Greeting {
+       
+        font-size: 1.5em;
+       
+    }
+}
 
+@media screen and (max-width:689px) {
+
+    .Greeting {
+       
+        font-size: 2em;
+       
+    }
+}
 
 @media screen and (max-width:768px) {
     

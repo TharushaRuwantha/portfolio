@@ -57,7 +57,7 @@
                                     <p class="fullstack">Full Stack Developer</p>
                                 </div>
                                 <div class="descriptionAbout">
-                                    <p>Passionate tech enthusiast with technical knowledge and expertise in developing effective software solutions.Self-motivated individual and a team player with the capability to take on new challenges and execute them successfully.</p> <input type="button" value="Download CV" class="Cvbutton btn"> 
+                                    <p class="details">Passionate tech enthusiast with technical knowledge and expertise in developing effective software solutions.Self-motivated individual and a team player with the capability to take on new challenges and execute them successfully.</p> <input type="button" value="Download CV" class="Cvbutton btn"> 
                                     
                                 </div>
                                 
@@ -160,7 +160,7 @@
     <section class="sub contact" id="contactpage">
         <img src="./images/backgroundLogo.png" class="bgLogo">
        
-       <form class="fromcontact">
+       <form class="fromcontact" action="https://formspree.io/f/mayzeoyl" method="POST">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -172,35 +172,34 @@
            <div class="row inputrow">
                 <div class="col-md-6">
                     <label class="lableText">Your Name</label><br>
-                    <input type="text" class="inputPlace" required>
+                    <input type="text" class="inputPlace" name="name" required>
                 </div>
     
                 <div class="col-md-6">
                     <label class="lableText">Your Email</label><br>
-                    <input type="email" class="inputPlace" required>
+                    <input type="email" class="inputPlace" name="email" required>
                 </div>
            </div>
            <div class="row inputrow">
             <div class="col-md-6 ">
                 <label class="lableText">What Are you interested</label><br>
-                <input type="text" class="inputPlace" required>
+                <input type="text" class="inputPlace" name="subject" required>
             </div>
     
             <div class="col-md-6 ">
                 <label class="lableText">Project Budget(USD)</label><br>
-                <input type="number" class="inputPlace" required>
+                <input type="number" class="inputPlace" name="budget" required>
             </div>
        </div>
            <div class="row">
                 <div class="col-12">
                     <lable class="lableText">Message</lable><br>
-                    <textarea class="inputPlace2" required></textarea>
+                    <textarea class="inputPlace2" name="message" required></textarea>
     
                 </div>
            </div>
            <div class="row buttonrow">
-                <div class="col ">
-                    <input type="reset" value="clear" class="resetButton btn">
+                <div class="col d-flex justify-content-center" >
                     <input type="submit" value="Send" class="submitButton btn">
                 </div>
            </div>
