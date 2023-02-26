@@ -46,3 +46,14 @@ body{
   
 }
 
+.card-text{
+    font-size: small;
+}
+
+.card-body{
+    padding: 0px 16px;
+}
+
+.badge{
+    
+}
